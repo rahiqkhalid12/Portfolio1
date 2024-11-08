@@ -232,13 +232,13 @@ strong a:hover{
 .copyright span{
     color: rgb(111, 11, 151);
 }
-.ht a{
+.social-icons a{
     color: white;
     font-size: 1.5em;
     align-content:end;
     padding: 10px;
 }
-.ht a:hover{
+.social-icons a:hover{
     color:  #7c13ff;
     font-size: 1.8em;
 }
@@ -262,33 +262,23 @@ strong a:hover{
     .main h1 {
         font-size: 2.4em;
     }
-    .main h3 {
-        font-size: 1.5em;
-    }
-    .main .myPhoto {
-        margin-top: 100px;
-    }
-    .main .myPhoto img {
-        display: none;
-    }
-
     .title {
         font-size: 1.8em;
     }
     .logo {
         font-size: 1.5em;
     }
-    footer p span,
-    footer p {
+    .copyright p span,
+    .copyright p {
         font-weight: 600;
         font-size: 1.2em;
     }
-    .social-icons {
+    .icons {
         font-size: .8em;
     }
-    .social-icons a:hover {
+    .icons a:hover {
         font-size: 1.2em;
-        color: #0038d3;
+        color: #7c13ff;
     }
 }
 @media (max-width:650px) {
@@ -298,7 +288,7 @@ strong a:hover{
     .main {
         padding: 80px 15px;
     }
-    footer p {
+    .copyright p {
         font-size: 0.6em;
     }
 }
@@ -313,9 +303,6 @@ strong a:hover{
     }
     .main h1 {
         font-size: 2.1em;
-    }
-    .main .myPhoto img {
-        display: none;
     }
 }
 @media (max-width:280px) {
@@ -336,21 +323,16 @@ strong a:hover{
     section {
         padding: 60px 10px;
     }
-    .main h2 {
-        font-size: 1.3em;
-    }
+
     .main h1 {
         font-size: 1.7em;
     }
 
-    .main h3 {
+    .main h4 {
         font-size: 1.5em;
     }
-    .main .main-btn {
+    .main {
         padding: 10px 5px;
-    }
-    .main .myPhoto img {
-        display: none;
     }
     .card {
         width: 19em;
@@ -358,12 +340,12 @@ strong a:hover{
     .icon i {
         font-size: 0.7em;
     }
-    .contact-card .info p {
+    .contacts .info p {
         font-size: 0.9em;
     }
-    
-    footer p span,
-    footer p {
+
+    .copyrightr p span,
+    .copyright p {
         font-size: 0.6em;
     }
 
@@ -375,13 +357,12 @@ strong a:hover{
         font-size: 1.5em;
     }
 
-    .social-icons {
+    .icons {
         font-size: .6em;
     }
 
-    .social-icons a:hover {
+    .icons a:hover {
         font-size: 1.2em;
-        color: #0038d3;
+        color: #7c13ff;
     }
 }
-
